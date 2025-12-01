@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="container">
     <!-- Header / Hero -->
@@ -20,10 +21,11 @@
           <a class="chip" href="tel:+1703419576">📞 +1 (703) 419-576</a>
           <a class="chip" href="https://www.linkedin.com/in/robel-bezabih" target="_blank">🔗 LinkedIn</a>
           <a class="chip" href="https://github.com/RobelCode" target="_blank">💻 GitHub</a>
+          <button id="rainbowModeBtn">🌈 Mode</button>
+
         </div>
       </div>
       </header>
-
       <section aria-label="Navigation">
       <nav>
         <a href="#about">About</a>
@@ -40,7 +42,7 @@
     
 
     <!-- About Section -->
-    <section id="about">
+    <!-- <section id="about">
       <h2 class="section-title"><span></span>About Me</h2>
       <div class="grid-2">
         <p>Dedicated and detail-oriented IT professional with a passion for technology and customer service. Strong troubleshooting, communication, and problem-solving skills.</p>
@@ -52,11 +54,57 @@
       </div>
       <div class="chips">
         <span class="tag">Technical Support</span>
+        <div
         <span class="tag">Windows / macOS</span>
         <span class="tag">Networking Basics</span>
         <span class="tag">Customer Service</span>
       </div>
-    </section>
+    </section> -->
+<section id="about">
+  <h2 class="section-title"><span></span>About Me</h2>
+
+  <div class="grid-2">
+    <p>
+      Dedicated and detail-oriented IT professional with a passion for
+      technology and customer service. Strong troubleshooting, communication,
+      and problem-solving skills.
+    </p>
+    <ul>
+      <li>Improved helpdesk resolution time by 25% with SOPs</li>
+      <li>98% CSAT across 500+ end users</li>
+      <li>Mentored new teammates; created onboarding guides</li>
+    </ul>
+  </div>
+
+  <!-- SKILL TAGS -->
+  <div class="chips">
+    <span class="tag" data-target="support-box">Technical Support</span>
+    <span class="tag" data-target="windows-box">Windows / macOS</span>
+    <span class="tag" data-target="network-box">Networking Basics</span>
+    <span class="tag" data-target="customer-box">Customer Service</span>
+  </div>
+
+  <!-- HIDDEN INFO BOXES -->
+  <div id="support-box" class="info-box">
+    <h3>Technical Support</h3>
+    <p>Hands-on troubleshooting for software, hardware, accounts, printers, VPN, and system performance.</p>
+  </div>
+
+  <div id="windows-box" class="info-box">
+    <h3>Windows / macOS</h3>
+    <p>Experience configuring, maintaining, and securing both Windows and macOS environments.</p>
+  </div>
+
+  <div id="network-box" class="info-box">
+    <h3>Networking Basics</h3>
+    <p>Understanding of DHCP, DNS, IP addressing, Wi-Fi troubleshooting, and basic network diagnostics.</p>
+  </div>
+
+  <div id="customer-box" class="info-box">
+    <h3>Customer Service</h3>
+    <p>Strong communication skills, patience, and a proven record of high customer satisfaction ratings.</p>
+  </div>
+</section>
 
     <!-- Experience Section -->
     <section id="experience">
